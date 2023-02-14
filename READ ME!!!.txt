@@ -1,0 +1,19 @@
+1. Double-click the Nerd Games Paint_1.0.0.0_x86_x64_arm_Debug.cer file
+2. Click the Install Certificate... button
+3. Store Location -> Local Machine
+4. Select the Place all certificates in the following store
+5. Click Browse... button
+6. Select the Trusted Root Certification Authorities
+7. OK
+
+
+
+Fix:
+Before installing: Enable Developer mode at
+
+Settings ➔ Update & Security ➔ For Developers ➔ Use Developer features : Developer Mode
+
+Install certificate (.cer file) to Trusted root certificates.
+
+Store location = Local machine
+Place all certificates in the following store = Third-Party Root Certification Authorities
